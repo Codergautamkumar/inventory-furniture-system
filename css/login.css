@@ -83,12 +83,80 @@ body#loginbody{
 }
 
 .counter{
-    background: url(../images/furniture2.jpeg) no-repeat center center fixed;
+    background: url(../images/goods2.jpeg) no-repeat center center fixed;
     background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .homepageContainer{
     width: 100%;
     max-width: 900px;
+     /*height: 70vh;*/
     margin: 0 auto;
+}
+
+.bannerheader h1{
+    font-size: 100px;
+    color: #12f7ff;
+    line-height: 100%;
+}
+
+.bannerheader p{
+    font-size: 30px;
+    color: #12f7ff;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.bannerTagline{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 5);
+}
+
+.bannerIcon{
+    margin-top: 30px;
+}
+
+.bannerIcon a{
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: rgba(0, 0, 0,0.8);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bannerIcon a:first-child{
+    margin-left: 0px;
+}
+
+.bannerIcon a:hover{
+    color: #080000fa;
+    background: #12f7ff;
+}
+
+.homepageFeatures{
+    display: flex;
+    flex-direction: row;
+}
+
+.homepageFeature{
+    padding: 10px 20px;
+}
+
+.featureIcon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background: #12f7ff;
+    padding-left: 16px;
+    padding-top: 5px;
+    margin-bottom: 20px;
 }
