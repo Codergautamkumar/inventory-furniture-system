@@ -218,3 +218,21 @@ body#loginbody{
     margin-left: 20px;
     color: #fff;
 }
+
+.socialIconContainer a:hover{
+    background: #12f7ff;
+    color: #070000;
+    transition: 0.3s all;
+}
+
+.footer{
+    background: #e3e3e3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.footer a{  
+    padding-right: 20px;
+    font-size: 20px;
+}
