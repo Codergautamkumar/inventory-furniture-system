@@ -146,6 +146,7 @@ body#loginbody{
 
 .homepageFeature{
     padding: 10px 20px;
+    text-align: center;
 }
 
 .featureIcon{
@@ -156,7 +157,64 @@ body#loginbody{
     border-radius: 50%;
     color: #fff;
     background: #12f7ff;
-    padding-left: 16px;
-    padding-top: 5px;
+    padding-top: 4px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.homepageFeature h3{
+    margin-top: 10px;
+}
+
+.homepageFeature p{
+    color: #848484;
+}
+
+.homepageNotified{
+    background: #3e3e3e;
+}
+
+.homepageNotified h3{
     margin-bottom: 20px;
+}
+
+.homepageNotified p{
+    color: #848484;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.formContainer input{
+    width: 25%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.formContainer button{
+    border-radius: 6px;
+    background: #12f7ff;
+}
+
+.socials{
+    text-align: center;
+    margin-top: 25px;
+    padding: 35px 0 30px 0;
+}
+
+.socialText{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #848484;
+}
+
+.socialIconContainer a{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    display: inline-block;
+    background: #d4d4d4;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: #fff;
 }
