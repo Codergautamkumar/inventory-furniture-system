@@ -236,3 +236,65 @@ body#loginbody{
     padding-right: 20px;
     font-size: 20px;
 }
+
+
+
+/*---------DASHBOARD FILE-------------*/
+
+
+
+#dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard_sidebar{
+    width: 20%;
+    background: #323232;
+    height: 100vh;
+}
+
+.dashboard_content_container{
+    width: 70%;
+}
+
+.dashboard_sidebar h3{
+    color: #12f7ff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.dashboard_sidebar_user img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid #12f7ff;
+}
+
+.dashboard_sidebar_user span{
+    font-size: 20px;
+    top: 20px;
+    text-transform: inherit;
+    color: #fff;
+    display: inline-block;
+}
+
+.dashboard_menu_lists{
+    padding: 0px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.dashboard_menu_lists a{
+    text-decoration: none;
+    color: #fff;
+}
